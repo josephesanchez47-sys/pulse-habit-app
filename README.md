@@ -1,16 +1,42 @@
-# React + Vite
+# Habit Pulse ⚡
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An intuitive React-based habit tracking application designed to help users manage daily routines, maintain consistency, and improve overall health and wellness.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* **Interactive Dashboard:** Create, track, and manage custom daily habits seamlessly.
+* **Live Progress Scoreboard:** A dynamic analytics bar that calculates and displays your completion percentage in real-time.
+* **Streak Tracking:** Built-in streak counters that update instantly as habits are completed.
+* **Persistent Storage:** Integrated with the browser's `localStorage` API to ensure your data and streaks are saved automatically across page refreshes.
+* **Responsive Layout:** Engineered with custom CSS Flexbox architecture to prevent UI cramping and ensure stable visual spacing on various screen sizes.
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **Frontend Framework:** React (Vite)
+* **Language:** JavaScript (JSX)
+* **Styling:** Custom Inline CSS (Flexbox)
+* **Data Persistence:** Web Storage API (`localStorage`)
 
-## Expanding the ESLint configuration
+## 📦 Installation & Setup
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+To run this project locally, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone <your-github-repo-url>
+   ```
+
+2. Navigate into the project directory:
+   ```bash
+   cd pulse-habit-app
+   ```
+
+3. Install the dependencies:
+   ```bash
+   npm install
+   ```
+
+4. Start the local development server:
+   ```bash
+   npm run dev
+   ```
