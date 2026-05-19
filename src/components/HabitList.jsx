@@ -1,5 +1,5 @@
 import React from 'react';
-import HabitCard from './HabitCard';
+import HabitCard from './HabitCard.jsx';
 
 export default function HabitList({ habits, toggleHabit, deleteHabit, isMobile }) {
   return (
